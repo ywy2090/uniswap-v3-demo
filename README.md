@@ -13,6 +13,7 @@
 
 ## 项目结构
 
+```bash
 uniswap-v3-demo/
 ├── src/
 │   ├── UniswapV3Pool.sol      # 核心池子合约
@@ -26,6 +27,7 @@ uniswap-v3-demo/
 ├── foundry.toml                # Foundry配置
 ├── hardhat.config.js           # Hardhat配置
 └── package.json                # NPM依赖
+```
 
 ## 集中流动性原理
 
@@ -100,7 +102,7 @@ amount1 = liquidity × (√Pb - √Pa)
 
 ```bash
 # 克隆项目
-git clone <repository-url>
+git clone https://github.com/ywy2090/uniswap-v3-demo.git
 cd uniswap-v3-demo
 
 # 初始化npm
