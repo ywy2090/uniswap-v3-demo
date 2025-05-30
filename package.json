@@ -1,0 +1,23 @@
+{
+  "name": "uniswap-v3-demo",
+  "version": "1.0.0",
+  "description": "Simplified Uniswap V3 Core Contract Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "test:verbose": "hardhat test --verbose",
+    "compile": "hardhat compile",
+    "node": "hardhat node",
+    "deploy:localhost": "hardhat run scripts/deploy.js --network localhost",
+    "foundry:test": "forge test -vv",
+    "foundry:build": "forge build"
+  },
+  "keywords": ["uniswap", "defi", "solidity", "hardhat", "foundry"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts": "^4.9.0",
+    "hardhat": "^2.17.0"
+  }
+}
